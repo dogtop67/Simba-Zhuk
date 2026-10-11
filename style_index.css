@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+        background: linear-gradient(to top, #d99f0d 20%, #d9250d 100%);
+        min-height: 100vh;
+        padding: 20px;
+}
+.logo{
+    text-align: center;
+}
+.button {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 15px 30px;
+  background-color: orange;
+  border-radius: 8px;
+  transition: all 0.3s;
+  display: inline-block;
+}
+.ABULDAS{
+  position: absolute;
+  top:20px;
+}
+.site{
+    position: absolute;
+    top:85px;
+}
