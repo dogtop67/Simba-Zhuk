@@ -21,7 +21,20 @@ body {
   position: absolute;
   top:20px;
 }
-.site{
-    position: absolute;
-    top:85px;
+ul{
+    font-size: 29px;
+}
+.site, .spisok {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+}
+.asortiment{
+    font-size:40px;
+}
+.pidval-mistera-beasta{
+  color:black;
+}
+.pidval-mistera-beasta:hover{
+    color: red;
 }
