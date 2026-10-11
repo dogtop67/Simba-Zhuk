@@ -8,7 +8,6 @@ body {
 .logo {
     text-align: center;
 }
-
 .button {
     text-decoration: none;
     color: #ffffff;
@@ -24,14 +23,13 @@ body {
 }
 main {
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     align-items: flex-start;
-    gap: 30px; 
+    gap: 30px;
 }
 .text {
     width: 100%;
 }
-
 .text h3 {
     font-size: 24px;
     line-height: 1.4;
@@ -40,7 +38,7 @@ main {
     flex-shrink: 0;
 }
 .site img {
-    max-width: 450px; 
+    max-width: 450px;
     width: 100%;
     height: auto;
     border-radius: 8px;
@@ -63,4 +61,31 @@ ul {
 }
 .pidval-mistera-beasta:hover {
     color: red;
+}
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column; 
+        align-items: center;   
+        text-align: center;     
+    }
+    .ABULDAS {
+        position: static;    
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    header {
+        text-align: center;
+    }
+    .logo img {
+        max-width: 100%;
+        height: auto;
+    }
+    .site img {
+        max-width: 100%;        
+    }
+    ul {
+        padding-left: 0;       
+        list-style-position: inside; 
+    }
 }
