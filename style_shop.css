@@ -31,8 +31,6 @@ body {
     font-size: 32px;
     margin-bottom: 30px;
 }
-
-/* Адаптивна сітка товарів */
 .products-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -40,8 +38,6 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
-
-/* Картка товару */
 .card {
     background: rgba(255, 255, 255, 0.95);
     border-radius: 12px;
@@ -53,37 +49,31 @@ body {
     justify-content: space-between;
     transition: transform 0.2s;
 }
-
 .card:hover {
     transform: translateY(-5px);
 }
-
 .card-img img {
     width: 100%;
     height: 160px;
     object-fit: cover;
     border-radius: 8px;
 }
-
 .card h2 {
     font-size: 22px;
     margin: 15px 0 5px 0;
     color: #333;
 }
-
 .description {
     font-size: 14px;
     color: #555;
     margin-bottom: 10px;
 }
-
 .price {
     font-size: 20px;
     font-weight: bold;
     color: #d9250d;
     margin: 5px 0 15px 0;
 }
-
 .buy-btn {
     background-color: #28a745;
     color: white;
@@ -95,45 +85,32 @@ body {
     font-weight: bold;
     transition: background 0.3s;
 }
-
 .buy-btn:hover {
     background-color: #218838;
 }
-
-/* Футер точно як на головній сторінці */
-.pidval {
-    margin-top: 40px;
-}
-
 .pidval-mistera-beasta {
     color: black;
 }
-
 .pidval-mistera-beasta:hover {
     color: red;
 }
 
-/* Адаптація під мобільні пристрої */
 @media (max-width: 768px) {
     .ABULDAS {
         position: static;
         margin-bottom: 20px;
         text-align: center;
     }
-
     header {
         text-align: center;
     }
-
     .logo img {
         max-width: 100%;
         height: auto;
     }
-
     .shop-title {
         font-size: 24px;
     }
-
     .products-grid {
         grid-template-columns: 1fr;
     }
