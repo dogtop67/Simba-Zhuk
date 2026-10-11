@@ -1,40 +1,66 @@
 body {
     margin: 0;
     font-family: sans-serif;
-        background: linear-gradient(to top, #d99f0d 20%, #d9250d 100%);
-        min-height: 100vh;
-        padding: 20px;
+    background: linear-gradient(to top, #d99f0d 20%, #d9250d 100%);
+    min-height: 100vh;
+    padding: 20px;
 }
-.logo{
+.logo {
     text-align: center;
 }
+
 .button {
-  text-decoration: none;
-  color: #ffffff;
-  padding: 15px 30px;
-  background-color: orange;
-  border-radius: 8px;
-  transition: all 0.3s;
-  display: inline-block;
-}
-.ABULDAS{
-  position: absolute;
-  top:20px;
-}
-ul{
-    font-size: 29px;
-}
-.site, .spisok {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 15px 30px;
+    background-color: orange;
+    border-radius: 8px;
+    transition: all 0.3s;
     display: inline-block;
-    vertical-align: top;
-    padding: 10px;
 }
-.asortiment{
-    font-size:40px;
+.ABULDAS {
+    position: absolute;
+    top: 20px;
 }
-.pidval-mistera-beasta{
-  color:black;
+main {
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: flex-start;
+    gap: 30px; 
 }
-.pidval-mistera-beasta:hover{
+.text {
+    width: 100%;
+}
+
+.text h3 {
+    font-size: 24px;
+    line-height: 1.4;
+}
+.site {
+    flex-shrink: 0;
+}
+.site img {
+    max-width: 450px; 
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.spisok {
+    flex-grow: 1;
+}
+.asortiment {
+    font-size: 36px;
+    margin-top: 0;
+}
+ul {
+    font-size: 26px;
+}
+.pidval {
+    margin-top: 40px;
+}
+.pidval-mistera-beasta {
+    color: black;
+}
+.pidval-mistera-beasta:hover {
     color: red;
 }
