@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simba zhuk</title>
+    <title>Магазин Simba zhuk</title>
     <link rel="stylesheet" href="style_shop.css">
 </head>
 <body>
@@ -21,7 +21,7 @@
 
 <main>
     <h1 class="shop-title">Каталог товарів🐞</h1>
-    
+
     <div class="products-grid">
         <div class="card">
             <div class="card-img">
@@ -43,7 +43,8 @@
 
         <div class="card">
             <div class="card-img">
-                <img src="Ivan.png" alt="Іван">
+                <img src="Ivan.png" alt="Іван" style="cursor: pointer;" onclick="document.getElementById('meowSound').currentTime = 0; document.getElementById('meowSound').play();">
+                <audio id="meowSound" src="meow.mp3"></audio>
             </div>
             <h2>Іванчик</h2>
             <p class="price">Безціно</p>
@@ -78,4 +79,4 @@
 </footer>
 
 </body>
-</html> 
+</html>
