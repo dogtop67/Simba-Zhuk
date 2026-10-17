@@ -5,9 +5,11 @@ body {
     min-height: 100vh;
     padding: 20px;
 }
+
 .logo {
     text-align: center;
 }
+
 .button {
     text-decoration: none;
     color: #ffffff;
@@ -17,13 +19,15 @@ body {
     transition: all 0.3s;
     display: inline-block;
 }
+
 .ABULDAS {
     position: absolute;
     top: 20px;
 }
+
 .shop-title {
     text-align: center;
-    color: white;
+    color: black;
     font-size: 32px;
     margin-bottom: 30px;
 }
@@ -84,6 +88,7 @@ body {
 .buy-btn:hover {
     background-color: #218838;
 }
+
 @keyframes fan-spin {
     from {
         transform: rotate(0deg);
@@ -92,9 +97,11 @@ body {
         transform: rotate(360deg);
     }
 }
+
 .spin-forever {
     animation: fan-spin 0.19s linear infinite !important;
 }
+
 .pidval-mistera-beasta {
     color: black;
 }
@@ -106,6 +113,7 @@ body {
     padding-bottom: 20px;
     text-align: left; 
 }
+
 @media (max-width: 768px) {
     .ABULDAS {
         position: static;
